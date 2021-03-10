@@ -5,17 +5,20 @@
     {
       "type": "object",
       "required": [
-        "update_datesource"
+        "update_datasource"
       ],
       "properties": {
-        "update_datesource": {
+        "update_datasource": {
           "type": "object",
           "required": [
             "name"
           ],
           "properties": {
             "name": {
-              "type": "string"
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
             }
           }
         }
@@ -34,7 +37,10 @@
           ],
           "properties": {
             "name": {
-              "type": "string"
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
             }
           }
         }

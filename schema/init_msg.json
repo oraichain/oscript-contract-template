@@ -8,10 +8,16 @@
   ],
   "properties": {
     "ai_data_source": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "testcase": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   }
 }

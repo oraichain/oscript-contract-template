@@ -9,13 +9,19 @@
   ],
   "properties": {
     "ai_data_source": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     },
     "owner": {
       "$ref": "#/definitions/CanonicalAddr"
     },
     "testcase": {
-      "type": "string"
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "definitions": {
